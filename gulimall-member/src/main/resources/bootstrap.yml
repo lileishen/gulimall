@@ -1,0 +1,21 @@
+server:
+  port: 2000
+
+spring:
+  application:
+    name: gulimall-coupon
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        namespace: db64f59a-22e4-4042-9379-776bb36c9a74
+        file-extension: yaml
+
+  profiles:
+    active: dev
+
+
+
+
